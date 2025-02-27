@@ -34,17 +34,22 @@ web.py                # 应用入口
 ### 1. 克隆项目
 
 ```bash
-git clone <仓库地址>
-cd wjwx-backend
+git clone https://github.com/Goinggoinggoing/FlaskQuickStart.git
+cd FlaskQuickStart
 ```
 
 ### 2. 创建虚拟环境
 
 ```bash
+conda create -n flask-back python=3.8
+conda activate flask-back
+
+# 或
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 # 或
 venv\Scripts\activate  # Windows
+
 ```
 
 ### 3. 安装依赖
